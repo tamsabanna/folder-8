@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(226, 216, 216);
+}
+.container{
+    height: 50vh;
+    min-width: 40%;
+    background: rgb(34,27,149);
+    background: linear-gradient(90deg, rgba(34,27,149,1) 14%, rgba(0,212,255,1) 52%, rgba(178,52,215,1) 87%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+h3{
+    font-size: 3rem;
+}
+.clock{
+    display: flex;
+    /* flex-direction: column; */
+    padding: 20px;
+}
+.clock > p{
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.clock > P > span{
+    display: block;
+    font-size: 4rem;
+}
+.clock > .colon {
+    font-size: 5rem;
+    margin: 5px; /* Add some spacing between the colons */
+}
